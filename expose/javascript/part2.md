@@ -29,14 +29,14 @@ value of log 'length'
 
 11. return the same thing as 4. and same reason with 4.
     
-(2)
+12.
 A. student.name
 B. student['Grand Year']
 C. student.greeting()
 D. student['Favorite Teacher'].name
 E. student.courseLoad[0]
 
-(3)
+13.
 A. '32' '+' used for string concatenation, since '3' is a string, 2 will change to string and they will concatenated.
 B.  1  '-' is not for string concatenation, since 2 is a number, '3' will change to number and do the calculate.
 C.  3  null will converted to 0 since '3' is a number then do the calculate.
@@ -46,7 +46,7 @@ F.  0  both of them will change to 0.
 G. '3undefined' since '3' is a string, undefined will also change to a string and do string concatenation.
 H.  NaN undefined will change to NaN, any arithmetic operation with NaN will return a NaN.
 
-(4)
+14.
 A. true  '2' will change to number 2, 2 > 1 so it will return true.
 B. false it will compire the length of string since both of them are string.
 C. true '2' will change to number 2, so it will return true.
@@ -54,6 +54,12 @@ D. false '===' does not perform type coercion, since 2 is a number and '2' is st
 E. false true will change to 1, and 1 not equal to 2, so it will return false.
 F.  2 is a truthy value, Boolean(2) will return true, true === true, same variable type, so it will retuen true.
 
-(5)
+15.
 == will perform type coercion but === doesn't, so == can compire different data type, === can only compire same data type.
 
+17. it will return[2, 4, 6]. modifyArray will take two inputs [1, 2, 3] and doSomething. newArr will crate a new empty array. 'for' function will read elements in the input array from array[0] to array[2]. callback will call the doSomething function since the second input is doSomething. this will do the multiplication. Then push the new element to the newArr, after the loop is done, will return [2, 4, 6].
+
+19. 1
+    4
+    3
+    2  
